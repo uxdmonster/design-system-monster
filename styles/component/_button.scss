@@ -1,0 +1,51 @@
+////////////////////////////////////////////////////////////
+// SETTINGS
+////////////////////////////////////////////////////////////
+
+$btnWidthNormal: 160px;
+$btnWidthWide: 100%;
+
+$btnHeightMD: 60px;
+$btnHeightSM: 40px;
+
+$btnRadius: 4px;
+
+////////////////////////////////////////////////////////////
+// RESET
+////////////////////////////////////////////////////////////
+
+button,
+input[type="button"],
+a.button {
+  -webkit-appearance: none;
+  outline: none;
+  border: none;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+  ////////////////////////////////////////////////////////////
+  // STYLES
+  ////////////////////////////////////////////////////////////
+
+button {
+	height: $height;
+  	border-radius: $radius;
+}
+
+button.md {
+	height: $btnHeightMD;
+}
+
+button.sm {
+	height: $btnHeightSM;
+}
+
+button.normal {
+    width: $btnWidthNormal;
+}
+
+button.wide {
+    width: $btnWidthWide;
+}
