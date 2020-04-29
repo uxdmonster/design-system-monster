@@ -1,2 +1,2 @@
-button{width:160px;height:60px;border-radius:4px}button.md{height:60px}button.sm{height:40px}
+a.button,button,input[type=button]{-webkit-appearance:none;outline:0;border:none;white-space:nowrap;text-decoration:none;cursor:pointer}button{border-radius:4px}button.md{height:60px}button.sm{height:40px}button.normal{width:160px}button.wide{width:100%}
 /*# sourceMappingURL=styles.min.css.map */
